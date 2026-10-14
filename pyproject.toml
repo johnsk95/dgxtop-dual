@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dgxtop-dual"
+version = "0.1.0"
+description = "Monitor two connected NVIDIA DGX Sparks in one terminal"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT AND Apache-2.0"}
+dependencies = ["rich>=13.0.0"]
+
+[project.scripts]
+dgxtop-dual = "dgxtop_dual.main:main"
+
+[tool.setuptools.packages.find]
+include = ["dgxtop_dual*"]

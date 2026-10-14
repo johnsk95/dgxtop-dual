@@ -1,0 +1,10 @@
+dgxtop-dual
+
+This project contains code adapted from dgxtop by GigCoder.ai and DGXTOP
+contributors: https://github.com/GigCoder-ai/dgxtop
+
+The adapted dgxtop code retains the Apache License, Version 2.0, reproduced in
+LICENSE-APACHE. LICENSE contains the MIT license for this project's additions.
+
+Changes made in 2026 include two-host collection and display, SSH streaming,
+terminal scrolling, metric accuracy fixes, and reduced sampling overhead.
